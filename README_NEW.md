@@ -727,17 +727,7 @@ helm upgrade csm-prod ./csm-triton \
 
 ### Long-term Vision (6-12 months)
 
-1. **Edge Deployment**
-   - **Target**: NVIDIA Jetson devices
-   - **Optimization**: Model pruning and distillation
-   - **Use case**: On-device TTS for privacy
-
-2. **Multi-Modal Integration**
-   - **Feature**: Emotion and style control
-   - **Architecture**: Additional control embeddings
-   - **Application**: Expressive conversational AI
-
-3. **Distributed Inference**
+1. **Distributed Inference**
    - **Scale**: 1000+ concurrent streams
    - **Architecture**: Kubernetes-native autoscaling
    - **Technology**: Ray Serve or similar framework
